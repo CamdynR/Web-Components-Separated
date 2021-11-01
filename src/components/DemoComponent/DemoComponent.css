@@ -1,0 +1,22 @@
+/* DemoComponent.css */
+
+* {
+  font-family: sans-serif;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.wrapper {
+  background-color: lightgray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 300px;
+  padding: 20px;
+  width: 500px;
+}

@@ -1,3 +1,3 @@
 export const config = {
-  directory: 'src/components',
+  componentDir: 'components',
 };

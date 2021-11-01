@@ -10,7 +10,8 @@ const path = require('path');
 
 /**
  * Used to get an array of strings of all of the file paths from the the given directory
- * @param {String} dirPath The directory (in relation to this file) that you'd like to get the files from
+ * @param {String} dirPath The directory (in relation to this file) that you'd like to get the 
+ *                         files from
  * @param {Array} arrayOfFiles Only used when the function calls itself recursively
  * @returns {Array} An array of strings of all of the file paths from the the given directory
  */

@@ -14,6 +14,8 @@ To create a component, follow these steps:
 - Create three files inside of that directory sharing the same name, but with `.html`, `.css`, and `.js` file extensions respectively
   - For example: For the component `<demo-component>` I would create a directory `DemoComponent`, with the files `DemoComponent.html`, `DemoComponent.css`, and `DemoComponent.js` inside.
 - Fill out your newly create files with your component's code, some notes:
+  - The HTML that goes in your `CustomComponent.html` file will go _inside_ of your component, so do not put your component's element inside of there
+    - e.g. Inside of `DemoComponent.html` I shouldn't place `<demo-component>`
   - You can use props in your HTML just like in React with bracket `{notation}`.
     - You can pass in the props to your element using `.props = {}` after creating your element.
   - Because of this, `set props()` is a reserved function

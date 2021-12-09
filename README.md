@@ -1,4 +1,4 @@
-# Web Components Idea (name TBD) - v0.0.1
+# Web Components Separated - v0.0.1
 
 ## About:
 I wanted a way to separate my HTML, CSS, and JS in my native web components into their own files. This has a few benefits:
